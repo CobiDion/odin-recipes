@@ -4,18 +4,20 @@
 
 .header {
     text-align: center;
-    margin-top: 60px;
+    margin: 100px auto 50px;
     font-family: "Roboto", sans-serif;
     color: rgb(147,155,164);
     font-weight: 100;
     font-size: 50px;
+    border: 1px solid white;
+    width: 350px;
 }
 
 .list {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 32px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -47,10 +49,37 @@
 
 .light {
     text-align: start;
-    font-size: 16px;
+    font-size: 26px;
     font-family: "Roboto", sans-serif;
     color: rgb(147,155,164); /* Fix color value */
     font-weight: 100;
-    padding: 0;
-    margin: 0;
+    padding: 30px;
+    border: 1px solid white;
+    margin: 30px;
+}
+.link {
+    text-align: start;
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+    color: lightblue; /* Fix color value */
+    font-weight: 100;
+}
+
+.button {
+    background-color: rgb(147,155,164);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    margin: 20px;
+    cursor: pointer;
+    transition-duration: 30ms;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(120, 130, 140);
 }
